@@ -60,6 +60,31 @@ h1 {
 	text-align: justify;
 }
 
+/*.main a:hover {
+	color: #444444;
+}*/
+
+footer {
+	padding: 6px 40px 6px 40px;
+	background: #919aad;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	color: #444444;
+	font-size: 11px;
+	text-decoration: right;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #19323a;
+}
+
+footer a:hover {
+	color: white;
+}
+
+
+
 
 
 
