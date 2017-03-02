@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta chrset="UTF-8">
+	<meta charset="UTF-8">
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/scripts.js"></script>
@@ -27,19 +27,18 @@
 				<form action="process.php" method="post">
 					
 					<p><label for="name">Name:</label>
-					<input type="text" name="name" placeholder="Your name"></p>
+					<input type="text" name="name" placeholder="Your name" required></p>
 
           <p><label for="email">Email:</label>
-					<input type="email" name="email"></p>
+					<input type="email" name="email" required></p>
 
 					<p><label for="subject">Subject:</label>
-					<input type="text" name="subject"></p>
+					<input type="text" name="subject" required></p>
 
 					<p><label for="message"></label>
-					<textarea id="message" name="message" rows="10" cols="30"></textarea></p>
+					<textarea id="message" name="message" rows="10" cols="30" required></textarea></p>
 
 					<p><input id="submit"type="submit" name="submit" value="Send message"></p>
-
 				</form>
 			</div>
 		</article>
