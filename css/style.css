@@ -152,7 +152,16 @@ footer a:hover {
 	background: #3b7687;
 }
 
+/**********Responsive Web Design with Media Queries********/
 
+@media screen and (max-width: 700px) {
+	.container {
+		width: 90%;
+	}
+	aside {
+		width: 20%;
+	}
+}
 
 
 
